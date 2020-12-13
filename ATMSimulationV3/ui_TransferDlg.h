@@ -150,13 +150,13 @@ public:
     void retranslateUi(QDialog *TransferDlg)
     {
         TransferDlg->setWindowTitle(QApplication::translate("TransferDlg", "Dialog", 0));
-        label->setText(QApplication::translate("TransferDlg", "   PZHU\342\200\224\342\200\224ATM                                      \345\256\242\346\234\215\347\203\255\347\272\277 | 8888888", 0));
-        pushButton_Exit_2->setText(QApplication::translate("TransferDlg", "\350\277\224\345\233\236", 0));
-        pushButton_Exit->setText(QApplication::translate("TransferDlg", "\351\200\200\345\215\241", 0));
-        pushButton_ok->setText(QApplication::translate("TransferDlg", "\347\241\256\345\256\232", 0));
-        label_2->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>\350\257\267\350\276\223\345\205\245\350\275\254\350\264\246\344\277\241\346\201\257</p></body></html>", 0));
-        label_3->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>\345\257\271\346\226\271\350\264\246\346\210\267\357\274\232</p></body></html>", 0));
-        label_4->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>\350\275\254\350\264\246\351\207\221\351\242\235\357\274\232</p></body></html>", 0));
+        label->setText(QApplication::translate("TransferDlg", "SpongeBob\342\200\224\342\200\224ATM                                      ", 0));
+        pushButton_Exit_2->setText(QApplication::translate("TransferDlg", "  \350\277\224\345\233\236  ", 0));
+        pushButton_Exit->setText(QApplication::translate("TransferDlg", "  \351\200\200\345\215\241  ", 0));
+        pushButton_ok->setText(QApplication::translate("TransferDlg", "  \347\241\256\345\256\232  ", 0));
+        label_2->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>  \350\257\267\350\276\223\345\205\245\350\275\254\350\264\246\344\277\241\346\201\257  </p></body></html>", 0));
+        label_3->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>  \345\257\271\346\226\271\350\264\246\346\210\267\357\274\232  </p></body></html>", 0));
+        label_4->setText(QApplication::translate("TransferDlg", "<html><head/><body><p>  \350\275\254\350\264\246\351\207\221\351\242\235\357\274\232  </p></body></html>", 0));
     } // retranslateUi
 
 };

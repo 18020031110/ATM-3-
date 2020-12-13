@@ -91,7 +91,7 @@ public:
         Password_lineEdit->setText(QString());
         Password_lineEdit->setPlaceholderText(QApplication::translate("LoginDlg", "\350\257\267\350\276\223\345\205\245\345\257\206\347\240\201", 0));
         User_lineEdit->setPlaceholderText(QApplication::translate("LoginDlg", "\350\257\267\350\276\223\345\205\245\347\224\250\346\210\267\345\220\215", 0));
-        label->setText(QApplication::translate("LoginDlg", "pzhu\342\200\224\342\200\224ATM", 0));
+        label->setText(QApplication::translate("LoginDlg", "SpongeBob\342\200\224\342\200\224ATM", 0));
     } // retranslateUi
 
 };

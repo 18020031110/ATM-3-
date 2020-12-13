@@ -118,7 +118,7 @@ public:
     {
         WithdrawlDlg->setWindowTitle(QApplication::translate("WithdrawlDlg", "Dialog", 0));
         label_2->setText(QApplication::translate("WithdrawlDlg", "<html><head/><body><p>\350\257\267\350\276\223\345\205\245\346\202\250\350\246\201\345\217\226\346\254\276\347\232\204\351\207\221\351\242\235</p><p><span style=\" font-size:16pt;\">\345\217\226\346\254\276\351\207\221\351\242\235\345\277\205\351\241\273\346\230\257100\347\232\204\346\225\264\346\225\260\345\200\215</span></p></body></html>", 0));
-        label->setText(QApplication::translate("WithdrawlDlg", "   PZHU\342\200\224\342\200\224ATM                                      \345\256\242\346\234\215\347\203\255\347\272\277 | 8888888", 0));
+        label->setText(QApplication::translate("WithdrawlDlg", "SpongeBob\342\200\224\342\200\224ATM                                      ", 0));
         pushButton_Exit->setText(QApplication::translate("WithdrawlDlg", "\351\200\200\345\215\241", 0));
         pushButton_Exit_2->setText(QApplication::translate("WithdrawlDlg", "\350\277\224\345\233\236", 0));
 #ifndef QT_NO_TOOLTIP

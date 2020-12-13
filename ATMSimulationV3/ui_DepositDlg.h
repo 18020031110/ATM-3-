@@ -115,7 +115,7 @@ public:
     void retranslateUi(QDialog *DepositDlg)
     {
         DepositDlg->setWindowTitle(QApplication::translate("DepositDlg", "Dialog", 0));
-        label->setText(QApplication::translate("DepositDlg", "   PZHU\342\200\224\342\200\224ATM                                      \345\256\242\346\234\215\347\203\255\347\272\277 | 8888888", 0));
+        label->setText(QApplication::translate("DepositDlg", "SpongeBob\342\200\224\342\200\224ATM                                     ", 0));
         pushButton_Exit_2->setText(QApplication::translate("DepositDlg", "\350\277\224\345\233\236", 0));
         pushButton_Exit->setText(QApplication::translate("DepositDlg", "\351\200\200\345\215\241", 0));
         pushButton_ok->setText(QApplication::translate("DepositDlg", "\347\241\256\345\256\232", 0));

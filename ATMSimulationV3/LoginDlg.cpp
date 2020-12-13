@@ -37,7 +37,7 @@ void LoginDlg::on_LoginPB_clicked()
             AccountInfo user = *m_Data.m_iter_user; // 将登陆用户在链表迭代器中的值取出来
             if(user.passWord == passw)
             {
-                QMessageBox::information(this, tr("Successful landing!"), tr("Welcome to pzhu——ATM system!"));
+                QMessageBox::information(this, tr("Successful landing!"), tr("Welcome to SpongeBob——ATM system!"));
                 m_Data.save();
                 accept();
             }

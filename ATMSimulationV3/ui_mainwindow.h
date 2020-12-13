@@ -164,7 +164,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        label->setText(QApplication::translate("MainWindow", "   PZHU\342\200\224\342\200\224ATM                                      \345\256\242\346\234\215\347\203\255\347\272\277 | 8888888", 0));
+        label->setText(QApplication::translate("MainWindow", "   SpongeBob\342\200\224\342\200\224ATM                                     ", 0));
         label_2->setText(QApplication::translate("MainWindow", "\350\257\267\351\200\211\346\213\251\344\270\232\345\212\241", 0));
         pushButton_Withdrawl->setText(QApplication::translate("MainWindow", "\345\217\226\346\254\276", 0));
         pushButton_Check->setText(QApplication::translate("MainWindow", "\346\237\245\350\257\242", 0));

@@ -192,7 +192,7 @@ public:
         pushButton_Deposit->setText(QApplication::translate("CheckDlg", "\345\255\230\346\254\276", 0));
         pushButton_Withdrawl->setText(QApplication::translate("CheckDlg", "\345\217\226\346\254\276", 0));
         pushButton_Transfer->setText(QApplication::translate("CheckDlg", "\350\275\254\350\264\246", 0));
-        label->setText(QApplication::translate("CheckDlg", "   PZHU\342\200\224\342\200\224ATM                                      \345\256\242\346\234\215\347\203\255\347\272\277 | 8888888", 0));
+        label->setText(QApplication::translate("CheckDlg", "SpongeBob\342\200\224\342\200\224ATM                                      ", 0));
         pushButton_Exit->setText(QApplication::translate("CheckDlg", "\351\200\200\345\215\241", 0));
         pushButton_Exit_2->setText(QApplication::translate("CheckDlg", "\350\277\224\345\233\236", 0));
         label_2->setText(QString());

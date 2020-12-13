@@ -22,14 +22,14 @@ public:
     // 存取款
     bool changeBalance(int rmb);
 
-    // 修改密码
+    // 修改密码FF
     bool changePWD(QString oldPWD, QString newPWD);
 
     // 转账
     bool tansfer(QString aim, int rmb);
 
 public:
-    QString m_fileName = "C:\\Users\\Hasee\\Desktop\\ATMSimulationV3\\accountInfo.txt"; // 默认账户信息在项目目录下的“accountInfo.txt”文件中
+    QString m_fileName = "C:\\Users\\Hasee\\Desktop\\study\\ATM\\ATM-3-\\ATMSimulationV3\\accountInfo.txt"; // 默认账户信息在项目目录下的“accountInfo.txt”文件中
     AccountInfoList m_accounts; // 所有账户保存在一个链表中
     AccountInfo m_user;         // 登录的用户
     AccountInfoList::iterator m_iter_user;   // 登陆用户在链表中的表示
